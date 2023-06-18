@@ -1,0 +1,2 @@
+# ignore the /target folders in each cargo projects
+**/target
