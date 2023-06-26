@@ -36,7 +36,7 @@ fn main(){  // 例子：r是一个悬空指针
     let r = dangle();
 }
 
-fn dangle() ->  &String{
+fn dangle() -> &String{
     let s = String::from("hello");
     &s
 }
